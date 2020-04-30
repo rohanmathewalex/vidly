@@ -1,0 +1,28 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "config": "^3.3.1",
+    "express": "^4.16.2",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "joi": "^13.7.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.0.2",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
+  }
+}
